@@ -4,11 +4,11 @@ import { Box, Typography, Grid, Paper, Rating } from "@mui/material";
 const MainContent = () => {
   return (
     <Box p={4}>
-      <Typography variant="h4" gutterBottom>
+      <Typography variant="h6" color="textprimary" gutterBottom>
         We back visionary companies that are changing the way we live, work, and
         play.
       </Typography>
-      <Typography variant="h6" color="textSecondary" gutterBottom>
+      <Typography variant="h6" bgcolor="#f8f8f8" gutterBottom>
         Portfolio Companies
       </Typography>
       <Grid container spacing={4}>

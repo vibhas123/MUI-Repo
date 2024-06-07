@@ -16,7 +16,7 @@ const FeaturedCompanies = () => {
       </Typography>
       <Grid container spacing={3}>
         {companies.map((company) => (
-          <Grid item xs={12} sm={6} md={3} key={company.name}>
+          <Grid item xs={8} sm={6} md={3} key={company.name}>
             <Paper
               elevation={3}
               style={{ padding: "16px", textAlign: "center" }}
@@ -25,7 +25,7 @@ const FeaturedCompanies = () => {
                 component="img"
                 src={company.logo}
                 alt={company.name}
-                width="100%"
+                width="50%"
                 height="100px"
               />
               <Typography variant="subtitle1" gutterBottom>
